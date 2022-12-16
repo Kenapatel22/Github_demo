@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Registrationform</string>
+    <string name="login_form">LOGIN FORM</string>
+    <string name="username">username</string>
+    <string name="remember_me">Remember me</string>
+    <string name="password">password</string>
+    <string name="sign_in">sign in</string>
+    <string name="forgot_password">forgot password?</string>
+    <string name="registration_form">Registration form</string>
+    <string name="email">Email</string>
+    <string name="re_type_password">Re-type password</string>
+    <string name="last_name">Last Name</string>
+    <string name="first_name">First Name</string>
+    <string name="select_country">select country</string>
+    <string name="female">Female</string>
+    <string name="male">Male</string>
+    <string name="save">save</string>
+    <string name="i_agree_with_terms_and_conditions">I agree with terms and conditions</string>
+    <string name="textview">textview</string>
+    <string name="hello" />
+    <string name="welcome">welcome</string>
+</resources>

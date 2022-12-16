@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg2"
+    android:orientation="vertical"
+    tools:context=".Registration">
+
+    <TextView
+        android:id="@+id/txtview1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:padding="20dp"
+        android:textSize="40dp"
+        android:textColor="@color/black"
+        android:layout_gravity="center"
+        android:text="@string/registration_form" />
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/ic_baseline_email_24"
+        android:drawablePadding="10dp"
+        android:padding="10dp"
+        android:layout_margin="15dp"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        android:inputType="textPersonName"
+        android:hint="@string/email" />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:drawableLeft="@drawable/ic_baseline_lock_24"
+        android:drawablePadding="10dp"
+        android:layout_margin="15dp"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        android:inputType="textPersonName"
+        android:hint="Password" />
+
+    <EditText
+        android:id="@+id/repassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:drawableLeft="@drawable/ic_baseline_lock_24"
+        android:drawablePadding="10dp"
+        android:layout_margin="15dp"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        android:inputType="textPersonName"
+        android:hint="@string/re_type_password" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/fname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:drawableLeft="@drawable/ic_baseline_person_24"
+            android:drawablePadding="10dp"
+            android:layout_margin="10dp"
+            android:textColor="@color/black"
+            android:textSize="25sp"
+            android:inputType="textPersonName"
+            android:hint="@string/first_name" />
+
+        <EditText
+            android:id="@+id/lname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:drawableLeft="@drawable/ic_baseline_person_24"
+            android:drawablePadding="10dp"
+            android:layout_margin="10dp"
+            android:textSize="25sp"
+            android:textColor="@color/black"
+            android:inputType="textPersonName"
+            android:hint="@string/last_name" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/male"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:layout_margin="10dp"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:text="@string/male" />
+
+        <RadioButton
+            android:id="@+id/female"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:layout_margin="10dp"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:text="@string/female" />
+
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/select"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:layout_margin="10dp"
+        android:textSize="25sp"
+        android:textColor="@color/black"
+        android:drawableEnd="@drawable/ic_baseline_arrow_drop_down_24"
+        android:inputType="textPersonName"
+        android:hint="@string/select_country" />
+
+    <CheckBox
+        android:id="@+id/checkBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:padding="10dp"
+        android:textColor="@color/black"
+        android:layout_margin="10dp"
+        android:text="@string/i_agree_with_terms_and_conditions" />
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnsave"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@drawable/btn_shape"
+        android:textColor="@color/black"
+        android:backgroundTint="#2E7D32"
+        android:textSize="30sp"
+        android:text="@string/save" />
+
+
+
+</LinearLayout>

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg1"
+    android:orientation="vertical"
+    tools:context=".LoginActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        app:srcCompat="@drawable/stay_home" />
+
+
+    <TextView
+        android:id="@+id/txtview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:padding="20dp"
+        android:text="@string/login_form"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:textSize="40dp" />
+
+    <EditText
+        android:id="@+id/user"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="30dp"
+        android:layout_margin="20dp"
+        android:textSize="25sp"
+        android:drawableLeft="@drawable/ic_baseline_person_24"
+        android:drawablePadding="10dp"
+        android:textColor="@color/black"
+        android:inputType="textPersonName"
+        android:hint="@string/username" />
+
+    <EditText
+        android:id="@+id/pass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="30dp"
+        android:layout_margin="20dp"
+        android:textSize="25sp"
+        android:drawableLeft="@drawable/ic_baseline_lock_24"
+        android:drawablePadding="10dp"
+        android:textColor="@color/black"
+        android:inputType="textPersonName"
+        android:hint="@string/password" />
+
+    <CheckBox
+        android:id="@+id/checkBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dp"
+        android:textColor="@color/black"
+        android:layout_margin="10dp"
+        android:text="@string/remember_me" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnsign"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:layout_margin="20dp"
+        android:background="@drawable/btn_shape"
+        android:textColor="@color/black"
+        android:textSize="30dp"
+        android:text="@string/sign_in" />
+
+    <TextView
+        android:id="@+id/txtView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:layout_weight="1"
+        android:textSize="20dp"
+        android:text="create your account now?"  />
+
+
+
+</LinearLayout>
