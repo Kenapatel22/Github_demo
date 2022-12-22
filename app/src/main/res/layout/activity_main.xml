@@ -17,4 +17,5 @@
         android:layout_gravity="center"
         android:layout_marginTop="200dp"
         app:srcCompat="@drawable/splash" />
+
 </LinearLayout>
